@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-21T11:42:10 IST" name="Default suite" finished-at="2022-07-21T11:43:01 IST" duration-ms="50669">
+    <groups>
+    </groups>
+    <test started-at="2022-07-21T11:42:10 IST" name="Default test" finished-at="2022-07-21T11:43:01 IST" duration-ms="50669">
+      <class name="testCases.ZomatoSearch">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.ZomatoSearch@51e69659]" started-at="2022-07-21T11:42:10 IST" name="setup" finished-at="2022-07-21T11:42:17 IST" duration-ms="6286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:testCases.ZomatoSearch@51e69659]" started-at="2022-07-21T11:42:17 IST" name="search" data-provider="DP" finished-at="2022-07-21T11:42:28 IST" duration-ms="10664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Haldiram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:testCases.ZomatoSearch@51e69659]" started-at="2022-07-21T11:42:28 IST" name="search" data-provider="DP" finished-at="2022-07-21T11:42:39 IST" duration-ms="11788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Burger King]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:testCases.ZomatoSearch@51e69659]" started-at="2022-07-21T11:42:39 IST" name="search" data-provider="DP" finished-at="2022-07-21T11:42:51 IST" duration-ms="11839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Behrouz Biryani]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:testCases.ZomatoSearch@51e69659]" started-at="2022-07-21T11:42:51 IST" name="search" data-provider="DP" finished-at="2022-07-21T11:43:00 IST" duration-ms="9054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[McDonald's]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.ZomatoSearch@51e69659]" started-at="2022-07-21T11:43:00 IST" name="close" finished-at="2022-07-21T11:43:01 IST" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.ZomatoSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
